@@ -1,0 +1,54 @@
+img {
+    float: right;
+}
+
+* {
+     font-family: Arial;
+ }
+ 
+ body {
+     margin-right: 100px;
+     margin-left: 100px;
+ }
+ 
+ p {
+     text-indent: 20px;
+     text-align: justify;
+ }
+ 
+ img {
+     width: 500px;
+     height: 350px;
+     margin-left: 20px;
+ }
+ 
+ #main-source:link {
+     color:#0099CC;
+ }
+ 
+ #main-source:hover {
+     text-decoration: underline;
+ }
+ 
+ table {
+     width: 500px;
+     border: 1px black solid;
+ }
+ 
+ .even {
+     background-color: #0099CC;
+     color:white;
+ }
+ 
+ .odd {
+     background-color: #B2DFEE;
+     color: black;
+ }
+ 
+ h1, h4 {
+     text-align: center;
+ }
+ 
+ th {
+     text-align: left;
+ }

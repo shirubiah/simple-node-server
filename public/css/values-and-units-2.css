@@ -1,0 +1,35 @@
+body {
+    background-color: #888888;
+    text-align: center;
+}
+
+h3 {
+    color: gray;
+}
+
+#main-title {
+    line-height: 10px;
+}
+
+#poem {
+    width: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px black solid;
+    background-color: white;
+    margin: auto;
+}
+
+#first {
+    font-size: 1.5em;
+}
+
+#third, #fourth {
+    line-height: 20pt;
+}
+
+.sub {
+    color: red;
+    position: relative;
+    bottom: -1ex;
+}

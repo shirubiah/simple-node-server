@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <script src="script/working-with-numbers.js"></script>
+    <body>
+        
+        <script>
+            function getRand() 
+            {
+             var x = Math.random(); 
+             var y = Math.floor((Math.random() * 50) + 1); 
+             document.getElementById("sample9").innerHTML = x + "<br/>" + y;
+             document.getElementById("rand").value = "Click Me Baby One More Time!";
+            }
+        </script>
+
+        <p>Randomize</p>
+        <input id="rand" type="button" onclick="getRand()" value="Click Me!"/>
+        <p id="sample9"></p>
+
+    </body>
+</html>

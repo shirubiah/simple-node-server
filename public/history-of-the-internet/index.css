@@ -1,0 +1,105 @@
+body {
+    font-family: Century Gothic, sans-serif;
+}
+
+p {
+    margin: 0 10px 10px;
+}
+
+a {
+    padding: 5px;
+    color: #000000;
+    text-decoration: none;
+}
+
+#header {
+    background-color: white;
+    background-image: url(banner.png);
+}
+
+#header h1 {
+    height: 280px;
+    line-height: 100px;
+    margin: 0;
+    padding-top: 80px;
+    padding-left: 10px;
+    font-family: Century;
+
+}
+
+#main {
+    text-align: left
+}
+
+#content p {
+    line-height: 1.4;
+}
+
+#links {
+    background-color: #B2DFDB;
+}
+
+#links ul {
+    margin: 15px 0; 
+    padding: 0; 
+    list-style-type: none;
+}
+
+#links li {
+    margin-bottom: 5px;
+}
+
+#more {
+    background-color: #009688;
+}
+
+#more ul {
+    margin: 15px 0; 
+    padding: 0; 
+    list-style-type: none;
+}
+
+#main {
+    width: 900px;
+    margin: 0 auto
+}
+
+#content {
+    float: right;
+    width: 700px;
+}
+
+#links {
+    float: left;
+    width: 200px
+}
+
+#more {
+    float: left;
+    clear: left;
+    width: 200px
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    text-align: center;
+    background-color: #CDDC39;
+    height: 80px;
+}
+
+footer p {
+    margin: 0;
+    padding-top: 30px;
+}
+
+#text {
+    font-size: 13px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
